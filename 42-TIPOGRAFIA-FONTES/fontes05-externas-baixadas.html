@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas Baixadas</title>
+    <style>
+        @font-face {
+            font-family: "Gotico";
+            src: url("deutsch_gothic/Deutsch.ttf") format("truetype");
+        }
+        /*Para utilizar fontes buscar utilizar as duas extensões de fontes: .ttf e .otf */
+        /*Tipos de Format:
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-opentype
+        - truetype-aat (Apple Advanced Typography)
+        - svg
+        */
+
+        /* Se tiver os dois formatos colocar a seguinte descrição: 
+        font-family: ;
+            src: url("deutsch_gothic/Deutsch.ttf") format("truetype"), url("deutsch_gothic/Deutsch.otf") format(opentype);
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+        }
+        h1{
+            font-family: "Gotico";
+            font-size: 3em;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Trabalhando com Fontes Externas
+    </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero beatae deleniti veritatis earum voluptatum, sequi architecto fugit dicta! Iste impedit molestiae consequuntur autem illo consequatur amet quod in optio labore? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus nisi a animi omnis beatae molestias tempora laborum fugit doloremque deleniti magni eveniet obcaecati illum iusto, possimus reiciendis facilis. Reprehenderit, laborum.</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit enim aliquid doloribus, quibusdam mollitia delectus neque, ex accusantium obcaecati commodi reiciendis, culpa quos asperiores reprehenderit eius dolores ad voluptatem dolore.</p>
+    
+</body>
+</html>

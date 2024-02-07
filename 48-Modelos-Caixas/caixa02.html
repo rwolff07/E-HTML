@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixa - Shorthand</title>
+    <style>
+        h1{
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            
+            border: 10px solid darkslategray;
+            
+            padding: 10px; 
+
+            margin: 10px;
+            
+            outline: 5px dashed blue;
+        }
+        a{
+            border: 2px solid darkred;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Caixa Box-Level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+    
+</body>
+</html>
+
+<!--
+    1) Por exemplo: se colocarmor:
+    margin: 20px auto 40px auto
+    - acima temos 20px;
+    - a direita temos centralizado;
+    - abaixo temos 40px;
+    - a esquerda temos centralizado.
+
+    2) Podemos mudar o tipo da caixa colocando as seguintes opções:
+    - display: inline (Transforma a caixa box-level em inline-level)
+    - display: block (Transforma a caixa inline-level em box-level)
+
+-->

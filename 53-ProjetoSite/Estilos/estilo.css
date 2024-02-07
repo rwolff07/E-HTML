@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "gotico";
+    src: url("../FONTES/Mage.ttf") format("truetype");
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor1: #000000;
+    --cor2: #0A3A40;
+    --cor3: #0F5959; 
+    --cor4: #1D7373;
+    --cor5: #FFFFFF;
+
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-german: "gotico";
+}
+body{
+    background-color: var(--cor2);
+}
+header{
+    background-color: var(--cor1);
+    font-family: var(--fonte-german);
+    font-size: 2em;
+    color: var(--cor5);
+}
+header > table{
+    text-align: center;
+    width: 100%;
+}
+header > h1{
+    color: var(--cor5);
+    font-family: var(--fonte-german);
+    font-weight: bolder;
+    font-size: 3em;
+}
+.menu{
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+    background-color: var(--cor3);
+    padding: 10px;
+    margin: 0px 0px 15px 0px;
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.295);
+}
+.menu ul li{
+    display: inline;
+    position: relative;
+}
+.menu ul li a{
+    display: inline-block;
+    color: var(--cor5);
+    text-decoration: none;
+    padding: 10px;
+}
+.menu ul li a:hover{
+    background-color: var(--cor1);
+    color: var(--cor4);
+}
+.menu ul ul{
+    display: none;
+    left: 0;
+    position: absolute;
+    background-color: var(--cor3);
+    width: 100%;
+}
+.menu ul li:hover ul{
+    display: block;
+}
+.menu ul ul li a{
+    display: block;
+}
+main{
+    min-width: 300px;
+    max-width: 1440px;
+    background-color: var(--cor3);
+    color:#FFFFFF;
+    font-family: var(--fonte-padrao);
+    font-size: 20px;
+    text-align: justify;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.295);
+    margin: auto;
+    padding: 5px;
+}
+main > h1{
+    padding: 10px;
+}
+main > article{
+    padding: 10px
+}
+main > article > p{
+    margin: 5px 0px 5px 0px;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+aside{
+    font-family: var(--fonte-padrao);
+    text-align: center;
+    color: var(--cor5);
+    padding: 5px;
+    margin: 10px 0px;
+}
+div.video{ 
+    padding-bottom: 55%;
+    position: relative;
+    }
+div.video > iframe{
+    top: 2%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    position: absolute; 
+    }
+footer{
+    background-color: var(--cor1);
+    color: var(--cor5);
+    font-family: var(--fonte-padrao);
+    text-align: center;
+}

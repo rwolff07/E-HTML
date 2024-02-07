@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas Decoradas</title>
+    <style>
+        body{
+            background-color: darkcyan;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 10px 0px 0px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.425);
+        }
+        nav{
+            background-color: darkgray;
+            padding: 3px;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.507); 
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;  
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 0px 10px 10px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.425);
+        }
+        article{
+            background-color: lightgray;
+            text-align: justify;
+        }
+        article > aside{
+            background-color: rgb(194, 194, 194);
+        }
+        footer{
+            border: 20px solid white;
+            border-image-source: url("borda-reni.png");
+            border-image-slice: 38;
+            border-image-repeat: repeat;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 1px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            Curiosidades Econômia Esportes Politíca
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt perspiciatis blanditiis veniam odio eos molestiae eum ut ea. Explicabo sit aliquid vel sapiente alias perspiciatis rem recusandae reprehenderit optio iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis fugit nihil itaque mollitia quidem ipsum. Dolorum accusantium praesentium laboriosam iste fugiat accusamus adipisci aut porro, excepturi hic fuga cumque.</p>
+                <aside>
+                    Artigo escrito por José Maria.
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+       <p>Desenvolvido por Reni.</p>
+    </footer>
+</body>
+</html>

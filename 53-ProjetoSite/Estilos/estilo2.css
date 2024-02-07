@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "goti";
+    src: url("/FONTES/anciat.ttf") format("truetype");
+}
+h1{
+   font-family: "goti";
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídia - Áudio</title>
+</head>
+<body>
+    <h1>ÁUDIO</h1>
+    <p>Vamos reproduzir um áudio.</p>
+    <audio src="SOM/My Dog Is Happy - Reed Mathis.mp3" controls autoplay></audio>
+    <!-- Autoplay não está funcionando.-->
+    <audio preload="metadata" controls loop>
+        <source src="SOM/Here Come The Raindrops - Reed Mathis.mp3" type="audio/mpeg">
+        <!-- Em preload se selecionar a opção "auto" o site faz todo o download do arquivo o que pode ser pesado conforme o tamanho do arquivo, já a opção "metadata" o arquivo vai tocando conforme for carregando-->
+    </audio>
+    
+</body>
+</html>

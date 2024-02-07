@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, Arial,sans-serif;
+    /*height: 100%;*/
+}
+
+body{
+    background-image: linear-gradient(to right, #024959, #3CA6A6 );
+}
+
+main{
+    background-color: white; /*Plano de fundo*/
+    width: 600px;  /*Largura*/
+    padding: 10px; /*Alcochoamento*/
+    margin: auto; /*Margem: com "auto" as margens se adequa quando a página maximiza e minimiza*/
+    border-radius: 10px; /*Arredonda  */
+    box-shadow: 5px 5px 10px #01212ea4; /*Efeito de sombra na caixa de diálogo. Primeiro parâmetro: quanto anda para o lado, Segundo parâmetro: quanto anda para baixo, Terceiro parâmetro: quanto vai espalhar e Último parâmetro: cor da transparência. */
+}
+
+h1{
+    background-color: #012E40; /*Cor de fundo do título*/
+    color: white; /*Cor do titulo */
+    text-align: center; /*Alinhamento do título*/
+    text-shadow: 2px 2px 2px #024959; /*Efeito de sombra no texto.*/
+}
+
+h2{
+    background-color:#024959 ;
+    color: white;
+}
+
+p{
+    text-align: justify; /*Alinhamento de texto. */
+}

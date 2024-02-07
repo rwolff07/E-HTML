@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir essa páginas em dispositivos com telas com tamanhos diferesntes, ou, em janelas com tamanhos diferentes.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="IMAGENS/figP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="IMAGENS/figM.png" type="image/png">
+        <img src="IMAGENS/figG.png" alt="imagem flexivel">
+    </picture>
+    <!--Cuidar a ordem das tags "sources"-->
+</body>
+</html>
