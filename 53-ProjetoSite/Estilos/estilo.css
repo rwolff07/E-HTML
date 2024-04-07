@@ -23,14 +23,16 @@ body{
     background-color: var(--cor2);
 }
 header{
+    display: flex;
     background-color: var(--cor1);
     font-family: var(--fonte-german);
     font-size: 2em;
     color: var(--cor5);
+    align-items: center;
 }
-header > table{
+.container{
+    width: 100vw;
     text-align: center;
-    width: 100%;
 }
 header > h1{
     color: var(--cor5);
@@ -38,6 +40,8 @@ header > h1{
     font-weight: bolder;
     font-size: 3em;
 }
+
+
 .menu{
     font-family: var(--fonte-padrao);
     font-weight: bold;
@@ -75,7 +79,7 @@ header > h1{
 }
 main{
     min-width: 300px;
-    max-width: 1440px;
+    max-width: 90%;
     background-color: var(--cor3);
     color:#FFFFFF;
     font-family: var(--fonte-padrao);
